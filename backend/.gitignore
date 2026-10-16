@@ -9,3 +9,18 @@ echo .env.local >> .gitignore
 echo dist/ >> .gitignore
 echo build/ >> .gitignore
 echo *.log >> .gitignore
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
