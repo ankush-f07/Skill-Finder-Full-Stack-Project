@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Find Matches </title>
+
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+
+    <main class="profile-container">
+
+        <a href="index.html" class="signup-logo">SkillSwap Hub</a>
+
+        <h1>Find Your Skill Match</h1>
+
+        <p class="profile-description">
+    Discover people whose skills complement yours.
+</p>
+
+<div class="search-section">
+    <input 
+        type="text"
+        id="skillSearch"
+        placeholder="Search skills, e.g. JavaScript..."
+    >
+
+    <select id="matchFilter">
+        <option value="all">All Matches</option>
+        <option value="teach">Skills I Can Teach</option>
+        <option value="learn">Skills I Want to Learn</option>
+    </select>
+</div>
+
+<section id="matchesContainer"></section>
+
+        <p id="matchesMessage"></p>
+
+        <a href="exchange.html" class="btnprimary profile-edit-button">
+            Update My Skills
+        </a>
+        <a href="connections.html" class="btnprimary profile-edit-button">
+    My Connections
+</a>
+
+    </main>
+  <script src="js/users.js"></script>
+<script src="js/connections.js"></script>
+<script src="js/matches.js"></script>
+</body>
+</html>

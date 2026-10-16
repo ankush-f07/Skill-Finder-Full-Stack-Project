@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skill Sync / Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/exchange.js" defer></script>
+</head>
+
+<body>
+
+    <main class="exchange-container">
+
+        <div class="exchange-header">
+            <a href="index.html" class="signup-logo">SkillSwap Hub</a>
+
+            <h1>Build Your Skill Profile</h1>
+
+            <p>
+                Share what you know and discover what you want to learn.
+            </p>
+        </div>
+
+        <form id="exchangeForm">
+
+            <div class="exchange-card">
+                <h2>Skills I Can Teach</h2>
+
+                <p>Select the skills you can help others learn.</p>
+
+                <div class="skill-options">
+                    <label>
+                        <input type="checkbox" name="teach" value="Web Development">
+                        Web Development
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="teach" value="JavaScript">
+                        JavaScript
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="teach" value="UI/UX Design">
+                        UI/UX Design
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="teach" value="Graphic Design">
+                        Graphic Design
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="teach" value="Video Editing">
+                        Video Editing
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="teach" value="Python">
+                        Python
+                    </label>
+                </div>
+            </div>
+
+            <div class="exchange-card">
+                <h2>Skills I Want to Learn</h2>
+
+                <p>Select the skills you want to learn from others.</p>
+
+                <div class="skill-options">
+                    <label>
+                        <input type="checkbox" name="learn" value="Web Development">
+                        Web Development
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="learn" value="JavaScript">
+                        JavaScript
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="learn" value="UI/UX Design">
+                        UI/UX Design
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="learn" value="Graphic Design">
+                        Graphic Design
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="learn" value="Video Editing">
+                        Video Editing
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="learn" value="Python">
+                        Python
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btnprimary exchange-button">
+                Save My Skills
+            </button>
+                <a href="profile.html" class="btnprimary profile-edit-button">
+                View My Profile
+                </a>
+
+            <p id="exchangeMessage" role="status"></p>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
